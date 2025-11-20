@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laundry Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+  <!-- Header+Hero Section -->
+  <header >
+    <nav class="navbar">
+      <div class="logo">Logo</div>
+      <ul class="nav-links">
+        <li><a href="/home"><strong>Home</strong> </a></li>
+        <li><a href="/services"><strong>Services</strong></a></li>
+        <li><a href="/about"><strong>About Us</strong></a></li>
+        <li><a href="/contact"><strong>Contact Us</strong></a></li>
+      </ul>
+      <a href="#Newsletter-Subscription" class="btn_user">Username</a>
+    </nav>
+  </header>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="text">
+          <h1>
+            Revitalize Your<br />
+            Clothes with Expert
+          </h1>
+
+          <h1 style="color: #007bff">Laundry Service!</h1>
+          <p>
+            From premium dry cleaning to swift wash and fold, we deliver
+            care and convenience, Schedule a <br />
+            pickup and rediscover the freshness of your clothes today!
+          </p>
+
+          <a href="/services" class="btn2">Book a service today!</a>
+        </div>
+        <div class="image">
+          <img
+            src="https://thumbs.dreamstime.com/b/woman-washing-machine-beautiful-young-doing-laundry-putting-dirty-clothes-basket-70150354.jpg"
+            alt="Laundry Service" />
+        </div>
+      </div>
+  </section>
+
+  <!-- Our Achievements Section -->
+  <section class="achievements" id="achievements">
+    <h2>Our Achievements</h2>
+    <div class="achievement-stats">
+      <div class="stat">
+        <h3>15+</h3>
+        <p>Laundry Services</p>
+      </div>
+      <div class="stat">
+        <h3>240+</h3>
+        <p>Happy Customers</p>
+      </div>
+      <div class="stat">
+        <h3>2+ Yrs</h3>
+        <p>Experience</p>
+      </div>
+    </div>
+  </section>
+  <!-- Booking Services Section: -->
+
+ 
+
+
+  <!-- Quality Description Section: -->
+  <section class="Quality-Description" id="Quality-Description">
+    <div class="Quality-box">
+      <img src="images/laundry-machine.png" alt="washing-machine">
+      <h3>Premium Services</h3>
+      <p>Elevate your wardobe with our meticuious dry cleaning ensuring garments look and feel as good as new</p>
+    </div>
+    <div class="Quality-box">
+      <img src="images/support.png" alt="support">
+      <h3>Quick Support</h3>
+      <p>We're committed to providing prompt solutions to ensure your experience is smooth and worry-free.</p>
+    </div>
+    <div class="Quality-box">
+      <img src="images/free-delivery.png" alt="free-delivery">
+      <h3>Hassle Free Delivery</h3>
+      <p>Enjoy seamless service with convenient pickup and delivery options, tailored to your schedule.</p>
+    </div>
+    <div class="Quality-box">
+      <img src="images/cost.png" alt="Afordable-cost">
+      <h3>Affordable prices</h3>
+      <p>Exceptional care without breaking the bank – affordable prices for stress-free laundry days.</p>
+    </div>
+  </section>
+
+  <!-- Newsletter Subscription Section -->
+  <section class="Newsletter-Subscription" id="Newsletter-Subscription">
+    <div class="NS-heading">
+      <h2>Subscribe to our <br> Newsletter</h2>
+    </div>
+    <div class="NS-input">
+      <input type="name" id="subscriber-name" placeholder="Full Name" required>
+      <input type="email" id="subscriber-email" placeholder="Email" required>
+      <br>
+      <button id="subscribe-btn">Subscribe</button>
+      <div id="subscribe-confirmation"></div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer class="footer" id="Contact">
+    <div class="About_footer">
+      <h3>Logo</h3>
+      <h4>About us</h4>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur dicta ipsam, ipsa id eligendi quis </p>
+    </div>
+    <div class="links">
+      <h4>Important Links</h4>
+      <ul>
+        <li><a href="/about">About us</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+        <li>Privacy Policy</li>
+        <li>Terms of use</li>
+        <li>Refund Policy</li>
+      </ul>
+    </div>
+    <div class="Contact">
+      <h4>Contact</h4>
+      <p>Mail123@gmail.com</p>
+      <p>+911234567894</p>
+    </div>
+    <div class="Follow">
+      <h4>Follow Us</h4>
+      <ul>
+        <li><ion-icon name="logo-instagram"></ion-icon></li>
+        <li><ion-icon name="logo-facebook"></ion-icon></li>
+        <li><ion-icon name="logo-twitter"></ion-icon></li>
+        <li><ion-icon name="logo-youtube"></ion-icon></li>
+      </ul>
+    </div>
+  </footer>
+  <!-- EmailJS Library -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <!-- Initialize EmailJS -->
+  <script>
+    (function () {
+      emailjs.init("BLJ1aCgL_wUYkFiR-");  // ✅ Replace with your actual PUBLIC KEY
+    })();
+  </script>
+
+  <!-- Your Custom JS file (must come AFTER) -->
+  <script src="script.js"></script>
+
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    // Add smooth scrolling to all links
+    $("a").on('click', function (event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+</script>
+
+</html>
