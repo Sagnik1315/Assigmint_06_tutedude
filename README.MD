@@ -4,7 +4,7 @@ This project is a basic Node.js web server created as part of Assignment 6.
 The goal was to build a simple HTTP server using the native http module (without Express), handle multiple routes, and serve different HTML pages like Home, About, and Contact.
 
 The website used here is a small Laundry Service site with a clean UI and separate HTML, CSS, and JS files.
-
+👉 Live Demo:https://assigmintsix.vercel.app/
 🚀 Project Features
 
 Built using pure Node.js (no frameworks)
@@ -84,7 +84,8 @@ node server.js
 4. Open the website
 http://localhost:3000
 
-👉 Live Demo:
+
+
 
 
 
