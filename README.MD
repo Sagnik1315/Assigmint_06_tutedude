@@ -75,6 +75,7 @@ Make sure you have Node installed (v14+ recommended).
 
 2. Clone the repository
 git clone:- https://github.com/Sagnik1315/Assigmint_06_tutedude.git
+
 cd laundry-website-server
 
 3. Run the server
@@ -83,10 +84,7 @@ node server.js
 4. Open the website
 http://localhost:3000
 
-🌐 Live Deployment
-
-You mentioned the project is deployed — add your link here:
-
 👉 Live Demo:
+
 
 
