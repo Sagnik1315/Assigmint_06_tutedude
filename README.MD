@@ -82,9 +82,16 @@ node server.js
 
 4. Open the website
 http://localhost:3000
-
+Picture of routhing page 
+Home page:
+  ![Home page](https://github.com/Sagnik1315/Assigmint_06_tutedude/blob/191e47f037fc40436cdc08b1b2746b25925d9c7e/Screenshot%202026-02-17%20212424.png)
+Services page:
+![services page](https://github.com/Sagnik1315/Assigmint_06_tutedude/blob/191e47f037fc40436cdc08b1b2746b25925d9c7e/Screenshot%202026-02-17%20212435.png)
+About-us page:
+![about-us page](https://github.com/Sagnik1315/Assigmint_06_tutedude/blob/191e47f037fc40436cdc08b1b2746b25925d9c7e/Screenshot%202026-02-17%20212446.png)
 Contact page: 
   ![Contact page](https://github.com/Sagnik1315/Assigmint_06_tutedude/blob/85a66c3c1f3e7d6bcb720fa8990e7b2972a80687/Screenshot%202026-02-17%20212456.png)
+
 
 
 
