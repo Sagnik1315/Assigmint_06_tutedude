@@ -95,6 +95,8 @@ About-us page:
 ![about-us page](https://github.com/Sagnik1315/Assigmint_06_tutedude/blob/191e47f037fc40436cdc08b1b2746b25925d9c7e/Screenshot%202026-02-17%20212446.png)
 Contact page: 
   ![Contact page](https://github.com/Sagnik1315/Assigmint_06_tutedude/blob/85a66c3c1f3e7d6bcb720fa8990e7b2972a80687/Screenshot%202026-02-17%20212456.png)
+404 page:
+  ![404 page](https://github.com/Sagnik1315/Assigmint_06_tutedude/blob/d6f4663c6bd517746df5ef4963523a3086507f3e/Screenshot%202026-02-20%20010745.png)
 
 
 
